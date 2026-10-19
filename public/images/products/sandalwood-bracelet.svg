@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#FDFBF7"/>
+      <stop offset="100%" stop-color="#EBE3D7"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#462F1E" flood-opacity="0.22"/>
+    </filter>
+    <radialGradient id="woodBead" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#C49B74"/>
+      <stop offset="60%" stop-color="#936841"/>
+      <stop offset="100%" stop-color="#604024"/>
+    </radialGradient>
+    <radialGradient id="guruBead" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#E5C7A9"/>
+      <stop offset="70%" stop-color="#AB7C50"/>
+      <stop offset="100%" stop-color="#6B4828"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg)"/>
+
+  <!-- Bracelet Bead Circle -->
+  <g filter="url(#shadow)" transform="translate(300, 290)">
+    <!-- 18 round sandalwood beads arranged in an ellipse / circle -->
+    <!-- Bead 1 (top) -->
+    <circle cx="0" cy="-140" r="22" fill="url(#woodBead)"/>
+    <circle cx="48" cy="-131" r="22" fill="url(#woodBead)"/>
+    <circle cx="92" cy="-105" r="22" fill="url(#woodBead)"/>
+    <circle cx="125" cy="-63" r="22" fill="url(#woodBead)"/>
+    <circle cx="140" cy="-12" r="22" fill="url(#woodBead)"/>
+    <circle cx="134" cy="42" r="22" fill="url(#woodBead)"/>
+    <circle cx="107" cy="90" r="22" fill="url(#woodBead)"/>
+    <circle cx="67" cy="123" r="22" fill="url(#woodBead)"/>
+    <circle cx="18" cy="139" r="22" fill="url(#woodBead)"/>
+    
+    <!-- Left half -->
+    <circle cx="-48" cy="-131" r="22" fill="url(#woodBead)"/>
+    <circle cx="-92" cy="-105" r="22" fill="url(#woodBead)"/>
+    <circle cx="-125" cy="-63" r="22" fill="url(#woodBead)"/>
+    <circle cx="-140" cy="-12" r="22" fill="url(#woodBead)"/>
+    <circle cx="-134" cy="42" r="22" fill="url(#woodBead)"/>
+    <circle cx="-107" cy="90" r="22" fill="url(#woodBead)"/>
+    <circle cx="-67" cy="123" r="22" fill="url(#woodBead)"/>
+    <circle cx="-18" cy="139" r="22" fill="url(#woodBead)"/>
+
+    <!-- Central Master Guru Bead at the bottom -->
+    <circle cx="0" cy="148" r="27" fill="url(#guruBead)"/>
+    <!-- Small Tassel / Knot under guru bead -->
+    <path d="M-6 175 L6 175 L10 220 L-10 220 Z" fill="#755034"/>
+    <circle cx="0" cy="177" r="7" fill="#C49B74"/>
+    <line x1="-5" y1="220" x2="-7" y2="245" stroke="#755034" stroke-width="2"/>
+    <line x1="-1" y1="220" x2="-2" y2="248" stroke="#755034" stroke-width="2"/>
+    <line x1="3" y1="220" x2="3" y2="246" stroke="#755034" stroke-width="2"/>
+    <line x1="7" y1="220" x2="8" y2="244" stroke="#755034" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(40, 520)">
+    <rect width="190" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.85"/>
+    <circle cx="20" cy="19" r="6" fill="#936841"/>
+    <text x="36" y="24" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#554436" letter-spacing="1">AROMATIC SANDALWOOD</text>
+  </g>
+</svg>

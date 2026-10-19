@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#F5EFE6"/>
+      <stop offset="100%" stop-color="#E8DFD3"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#5A3E2B" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="rattanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D7A87A"/>
+      <stop offset="50%" stop-color="#C08B5C"/>
+      <stop offset="100%" stop-color="#8F5D38"/>
+    </linearGradient>
+    <linearGradient id="cordGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#826E5D"/>
+      <stop offset="100%" stop-color="#554436"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="600" fill="url(#bg)"/>
+  
+  <!-- Subtle Linen Texture Accents -->
+  <circle cx="300" cy="300" r="230" fill="none" stroke="#D8CABE" stroke-width="1.5" stroke-dasharray="4 8" opacity="0.6"/>
+  <circle cx="300" cy="300" r="255" fill="none" stroke="#D8CABE" stroke-width="1" opacity="0.4"/>
+
+  <!-- Shadow Group -->
+  <g filter="url(#shadow)">
+    <!-- Cord -->
+    <path d="M190 120 C 190 280, 240 370, 300 370 C 360 370, 410 280, 410 120" 
+          fill="none" stroke="url(#cordGrad)" stroke-width="7" stroke-linecap="round"/>
+    
+    <!-- Central Rattan Pendant (Interlocking circular weave) -->
+    <circle cx="300" cy="370" r="75" fill="none" stroke="url(#rattanGrad)" stroke-width="16"/>
+    <circle cx="300" cy="370" r="54" fill="none" stroke="#B37C4F" stroke-width="8" stroke-dasharray="8 6"/>
+    <circle cx="300" cy="370" r="38" fill="none" stroke="url(#rattanGrad)" stroke-width="12"/>
+    <circle cx="300" cy="370" r="20" fill="#EADBC8" stroke="#8F5D38" stroke-width="4"/>
+    <circle cx="300" cy="370" r="8" fill="#554436"/>
+
+    <!-- Decorative hanging rattan beads -->
+    <circle cx="270" cy="455" r="9" fill="url(#rattanGrad)"/>
+    <circle cx="300" cy="475" r="12" fill="#A87449"/>
+    <circle cx="330" cy="455" r="9" fill="url(#rattanGrad)"/>
+    
+    <line x1="270" y1="440" x2="270" y2="455" stroke="#554436" stroke-width="3"/>
+    <line x1="300" y1="445" x2="300" y2="475" stroke="#554436" stroke-width="3"/>
+    <line x1="330" y1="440" x2="330" y2="455" stroke="#554436" stroke-width="3"/>
+
+    <!-- Small side beads on cord -->
+    <circle cx="218" cy="240" r="8" fill="#B37C4F"/>
+    <circle cx="382" cy="240" r="8" fill="#B37C4F"/>
+  </g>
+
+  <!-- Artisan Label Badge -->
+  <g transform="translate(40, 520)">
+    <rect width="180" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.85"/>
+    <circle cx="20" cy="19" r="6" fill="#8F5D38"/>
+    <text x="36" y="24" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#554436" letter-spacing="1">HANDWOVEN RATTAN</text>
+  </g>
+</svg>

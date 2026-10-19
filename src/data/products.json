@@ -1,0 +1,275 @@
+[
+  {
+    "id": "001",
+    "name": {
+      "id": "Kalung Anyaman Rotan Alami",
+      "en": "Natural Woven Rattan Necklace"
+    },
+    "category": {
+      "id": "Kalung",
+      "en": "Necklace"
+    },
+    "price": 85000,
+    "description": {
+      "id": "Kalung liontin lingkaran handmade yang dianyam teliti dari serat rotan alami pilihan. Ringan, ramah lingkungan, dan memberikan nuansa bumi yang elegan pada setiap gaya pakaian.",
+      "en": "Handcrafted circular pendant necklace carefully woven from select natural rattan fibers. Lightweight, eco-friendly, and adds an earthy, elegant touch to any outfit."
+    },
+    "material": {
+      "id": "Rotan Alami & Tali Katun Waxed",
+      "en": "Natural Rattan & Waxed Cotton Cord"
+    },
+    "dimensions": {
+      "id": "Panjang tali 45 cm, Liontin diameter 5 cm",
+      "en": "Cord length 45 cm, Pendant diameter 5 cm"
+    },
+    "image": "/images/products/rattan-necklace.svg",
+    "images": [
+      "/images/products/rattan-necklace.svg",
+      "/images/products/rattan-necklace-detail.svg"
+    ],
+    "stock": true,
+    "featured": true,
+    "tags": {
+      "id": ["Terlaris", "Serat Alami", "Handmade"],
+      "en": ["Bestseller", "Natural Fiber", "Handmade"]
+    }
+  },
+  {
+    "id": "002",
+    "name": {
+      "id": "Gelang Manik Kayu Cendana",
+      "en": "Sandalwood Beaded Bracelet"
+    },
+    "category": {
+      "id": "Gelang",
+      "en": "Bracelet"
+    },
+    "price": 65000,
+    "description": {
+      "id": "Gelang kayu cendana asli dengan keharuman alami yang menenangkan pikiran. Dirangkai menggunakan tali elastis kuat dengan butiran manik bertekstur halus.",
+      "en": "Authentic sandalwood beaded bracelet with a naturally calming fragrance. Strung on durable elastic cord with smoothly polished wooden beads."
+    },
+    "material": {
+      "id": "Kayu Cendana Asli & Tali Elastis Serat Ganda",
+      "en": "Authentic Sandalwood & Dual-strand Elastic Cord"
+    },
+    "dimensions": {
+      "id": "Diameter gelang 6 cm (elastis), Ukuran manik 8 mm",
+      "en": "Bracelet diameter 6 cm (stretch), Bead size 8 mm"
+    },
+    "image": "/images/products/sandalwood-bracelet.svg",
+    "images": [
+      "/images/products/sandalwood-bracelet.svg"
+    ],
+    "stock": true,
+    "featured": true,
+    "tags": {
+      "id": ["Aromaterapi", "Kayu Alami", "Unisex"],
+      "en": ["Aromatherapy", "Natural Wood", "Unisex"]
+    }
+  },
+  {
+    "id": "003",
+    "name": {
+      "id": "Anting Makrame Daun Sage",
+      "en": "Sage Leaf Macrame Earrings"
+    },
+    "category": {
+      "id": "Anting",
+      "en": "Earrings"
+    },
+    "price": 45000,
+    "description": {
+      "id": "Anting rajut makrame berbentuk helai daun bernuansa hijau sage lembut. Menggunakan kawat giwang hypoallergenic yang sangat aman dan nyaman untuk kulit sensitif.",
+      "en": "Handwoven macrame leaf earrings in gentle sage green hues. Fitted with hypoallergenic ear wires that are exceptionally comfortable for sensitive skin."
+    },
+    "material": {
+      "id": "Benang Katun Organik & Kawat Baja Antialergi",
+      "en": "Organic Cotton Thread & Hypoallergenic Stainless Steel"
+    },
+    "dimensions": {
+      "id": "Panjang 6 cm, Lebar 3 cm",
+      "en": "Length 6 cm, Width 3 cm"
+    },
+    "image": "/images/products/sage-earrings.svg",
+    "images": [
+      "/images/products/sage-earrings.svg"
+    ],
+    "stock": false,
+    "featured": false,
+    "tags": {
+      "id": ["Makrame", "Organik", "Bohemian"],
+      "en": ["Macrame", "Organic", "Bohemian"]
+    }
+  },
+  {
+    "id": "004",
+    "name": {
+      "id": "Tas Jinjing Anyaman Bambu",
+      "en": "Handwoven Bamboo Tote Bag"
+    },
+    "category": {
+      "id": "Tas",
+      "en": "Bags"
+    },
+    "price": 175000,
+    "description": {
+      "id": "Tas anyaman bambu tradisional yang dipadukan dengan desain kontemporer. Dilengkapi lapisan furing kain blacu katun dan pegangan kulit sintetis tebal.",
+      "en": "Traditional bamboo woven tote bag elevated with contemporary styling. Complete with a soft calico cotton inner lining and sturdy leatherette handles."
+    },
+    "material": {
+      "id": "Bambu Apus Pilihan, Furing Blacu & Handle Kulit Sintetis",
+      "en": "Selected Bamboo, Calico Lining & Faux-leather Handles"
+    },
+    "dimensions": {
+      "id": "28 cm x 20 cm x 10 cm, Drop handle 14 cm",
+      "en": "28 cm x 20 cm x 10 cm, Handle drop 14 cm"
+    },
+    "image": "/images/products/bamboo-tote.svg",
+    "images": [
+      "/images/products/bamboo-tote.svg"
+    ],
+    "stock": true,
+    "featured": true,
+    "tags": {
+      "id": ["Pilihan Kurator", "Ramah Lingkungan", "Eksklusif"],
+      "en": ["Curator's Pick", "Eco-friendly", "Exclusive"]
+    }
+  },
+  {
+    "id": "005",
+    "name": {
+      "id": "Kalung Choker Manik Keramik",
+      "en": "Ceramic Bead Choker Necklace"
+    },
+    "category": {
+      "id": "Kalung",
+      "en": "Necklace"
+    },
+    "price": 95000,
+    "description": {
+      "id": "Kalung choker beraksen manik keramik tanah liat glasir warna terracotta dan cream. Dibentuk manual satu per satu oleh tangan seniman keramik.",
+      "en": "Choker necklace featuring handmade glazed clay beads in earthy terracotta and cream tones. Individually hand-shaped by ceramic craftspeople."
+    },
+    "material": {
+      "id": "Keramik Tanah Liat Glasir & Kaitan Perak 925",
+      "en": "Glazed Terracotta Clay Beads & 925 Silver Clasp"
+    },
+    "dimensions": {
+      "id": "Panjang 38 cm (+ rantai perpanjangan 5 cm)",
+      "en": "Length 38 cm (+ 5 cm extension chain)"
+    },
+    "image": "/images/products/ceramic-choker.svg",
+    "images": [
+      "/images/products/ceramic-choker.svg"
+    ],
+    "stock": true,
+    "featured": false,
+    "tags": {
+      "id": ["Edisi Terbatas", "Keramik", "Artisan"],
+      "en": ["Limited Edition", "Ceramic", "Artisan"]
+    }
+  },
+  {
+    "id": "006",
+    "name": {
+      "id": "Anting Piringan Kuningan Tempa",
+      "en": "Hammered Brass Disc Earrings"
+    },
+    "category": {
+      "id": "Anting",
+      "en": "Earrings"
+    },
+    "price": 55000,
+    "description": {
+      "id": "Anting piringan bundar dari kuningan murni dengan tekstur ketokan martil tradisional yang memantulkan kilau hangat saat terkena cahaya.",
+      "en": "Circular disc earrings made of solid brass with artisan hammered surface texture that catches light with a warm, subtle glow."
+    },
+    "material": {
+      "id": "Kuningan Padat & Kawat Titanium Antialergi",
+      "en": "Solid Hammered Brass & Hypoallergenic Titanium Wire"
+    },
+    "dimensions": {
+      "id": "Diameter 3.5 cm, Ketebalan 1 mm",
+      "en": "Diameter 3.5 cm, Thickness 1 mm"
+    },
+    "image": "/images/products/brass-earrings.svg",
+    "images": [
+      "/images/products/brass-earrings.svg"
+    ],
+    "stock": true,
+    "featured": false,
+    "tags": {
+      "id": ["Kuningan", "Vintage", "Minimalis"],
+      "en": ["Brass", "Vintage", "Minimalist"]
+    }
+  },
+  {
+    "id": "007",
+    "name": {
+      "id": "Dompet Koin Anyaman Pandan",
+      "en": "Woven Pandan Leaf Coin Pouch"
+    },
+    "category": {
+      "id": "Aksesoris",
+      "en": "Accessories"
+    },
+    "price": 35000,
+    "description": {
+      "id": "Dompet mungil serbaguna dari daun pandan kering yang dirajut rapat berpola anyam tulang ikan. Tahan lama dan beraroma herbal alami.",
+      "en": "Compact multi-purpose pouch woven tightly from dried pandan leaf fibers in a herringbone pattern. Durable with a pleasant natural herbal aroma."
+    },
+    "material": {
+      "id": "Serat Daun Pandan Alami & Ritsleting Logam Kuningan",
+      "en": "Natural Pandan Leaf Fiber & Brass Metal Zipper"
+    },
+    "dimensions": {
+      "id": "Panjang 12 cm, Tinggi 9 cm",
+      "en": "Length 12 cm, Height 9 cm"
+    },
+    "image": "/images/products/pandan-pouch.svg",
+    "images": [
+      "/images/products/pandan-pouch.svg"
+    ],
+    "stock": false,
+    "featured": false,
+    "tags": {
+      "id": ["Pandan", "Tradisional", "Kompak"],
+      "en": ["Pandan", "Traditional", "Compact"]
+    }
+  },
+  {
+    "id": "008",
+    "name": {
+      "id": "Gelang Anyaman Tali Rami Etnik",
+      "en": "Ethnic Braided Hemp Cord Bracelet"
+    },
+    "category": {
+      "id": "Gelang",
+      "en": "Bracelet"
+    },
+    "price": 40000,
+    "description": {
+      "id": "Gelang tali rami berkepang tebal dengan aksen butiran kayu jati tua dan simpul geser yang mudah disesuaikan untuk berbagai ukuran pergelangan.",
+      "en": "Thickly braided natural hemp cord bracelet accentuated with vintage teak beads and an adjustable sliding knot to fit any wrist size."
+    },
+    "material": {
+      "id": "Serat Rami Alami & Butiran Kayu Jati",
+      "en": "Natural Hemp Fiber & Aged Teak Wood Beads"
+    },
+    "dimensions": {
+      "id": "Panjang 16 - 24 cm (dapat disesuaikan)",
+      "en": "Length 16 - 24 cm (adjustable sliding knot)"
+    },
+    "image": "/images/products/hemp-bracelet.svg",
+    "images": [
+      "/images/products/hemp-bracelet.svg"
+    ],
+    "stock": true,
+    "featured": true,
+    "tags": {
+      "id": ["Etnik", "Tali Rami", "Unisex"],
+      "en": ["Ethnic", "Hemp Fiber", "Unisex"]
+    }
+  }
+]

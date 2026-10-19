@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#EBE3D7"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#462F1E" flood-opacity="0.18"/>
+    </filter>
+    <radialGradient id="terracottaBead" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#D78663"/>
+      <stop offset="65%" stop-color="#B85C38"/>
+      <stop offset="100%" stop-color="#7C3619"/>
+    </radialGradient>
+    <radialGradient id="creamBead" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="65%" stop-color="#E8DFD3"/>
+      <stop offset="100%" stop-color="#BAADA0"/>
+    </radialGradient>
+    <radialGradient id="sageBead" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#A7BEAE"/>
+      <stop offset="65%" stop-color="#769781"/>
+      <stop offset="100%" stop-color="#4B6654"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg)"/>
+
+  <!-- Choker Arc -->
+  <g filter="url(#shadow)" transform="translate(300, 260)">
+    <!-- Base thread -->
+    <path d="M -180 -20 C -180 180, 180 180, 180 -20" fill="none" stroke="#A89F91" stroke-width="3"/>
+
+    <!-- Alternating ceramic clay beads -->
+    <circle cx="-160" cy="10" r="14" fill="url(#creamBead)"/>
+    <circle cx="-135" cy="45" r="15" fill="url(#terracottaBead)"/>
+    <circle cx="-105" cy="80" r="16" fill="url(#sageBead)"/>
+    <circle cx="-70" cy="110" r="17" fill="url(#creamBead)"/>
+    <circle cx="-35" cy="130" r="18" fill="url(#terracottaBead)"/>
+    <circle cx="0" cy="136" r="22" fill="url(#terracottaBead)"/>
+    <circle cx="35" cy="130" r="18" fill="url(#terracottaBead)"/>
+    <circle cx="70" cy="110" r="17" fill="url(#creamBead)"/>
+    <circle cx="105" cy="80" r="16" fill="url(#sageBead)"/>
+    <circle cx="135" cy="45" r="15" fill="url(#terracottaBead)"/>
+    <circle cx="160" cy="10" r="14" fill="url(#creamBead)"/>
+
+    <!-- Silver clasp -->
+    <circle cx="-180" cy="-20" r="6" fill="#C0C0C0"/>
+    <circle cx="180" cy="-20" r="6" fill="#C0C0C0"/>
+  </g>
+
+  <g transform="translate(40, 520)">
+    <rect width="180" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.85"/>
+    <circle cx="20" cy="19" r="6" fill="#B85C38"/>
+    <text x="36" y="24" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#554436" letter-spacing="1">GLAZED CERAMIC</text>
+  </g>
+</svg>
